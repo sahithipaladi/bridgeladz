@@ -1,37 +1,21 @@
 ﻿using System;
-
-namespace oops
+namespace Helloworld
 {
-    class Program
+    public class Dog
     {
-
-        public void MainFunction()
+        string breed;
+        int size;
+        
+         int  age() //default contructor  
         {
-            Console.WriteLine("Main class");
+            return age();
+
         }
-        static void Main(string[] args)
+        public static void Main()
         {
-            //main class instance
-            Program obj = new Program();
-            obj.MainFunction();
-
-            //other class instace
-            demo dObj = new demo();
-            dObj.addition();
+            Dog dog = new Dog();
+            Console.WriteLine("age>=5");
         }
     }
+}
 
-    class demo
-    {
-        int x = 10;
-        int y = 20;
-        int z;
-
-        public void addition()
-        {
-            z = x + y;
-            Console.WriteLine("other class in Namespace");
-            Console.WriteLine(z);
-        }
-    }
-}s
