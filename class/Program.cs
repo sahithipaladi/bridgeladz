@@ -14,7 +14,7 @@ namespace Helloworld
         public static void Main()
         {
             Dog dog = new Dog();
-            Console.WriteLine("age>=5");
+            Console.WriteLine("age is 5");
         }
     }
 }
